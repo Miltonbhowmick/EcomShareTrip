@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default (base) styles */
+h1 {
+  @apply text-h1;
+}
+h2 {
+  @apply text-h2;
+}
+h3 {
+  @apply text-h3;
+}
+h4 {
+  @apply text-h4;
+}
+h5 {
+  @apply text-h5;
+}
+h6 {
+  @apply text-h6;
+}
+
+p {
+  @apply text-paragraph;
+}
+
+/* Small screens (sm) */
+@screen sm {
+  h1 {
+    @apply text-h1-sm;
+  }
+  h2 {
+    @apply text-h2-sm;
+  }
+  h3 {
+    @apply text-h3-sm;
+  }
+  h4 {
+    @apply text-h4-sm;
+  }
+  h5 {
+    @apply text-h5-sm;
+  }
+  h6 {
+    @apply text-h6-sm;
+  }
+}
+
+/* Medium screens (md) */
+@screen md {
+  h1 {
+    @apply text-h1-md;
+  }
+  h2 {
+    @apply text-h2-md;
+  }
+  h3 {
+    @apply text-h3-md;
+  }
+  h4 {
+    @apply text-h4-md;
+  }
+  h5 {
+    @apply text-h5-md;
+  }
+  h6 {
+    @apply text-h6-md;
+  }
+  p {
+    @apply text-paragraph-md;
+  }
+}
+
+/* Large screens (lg) */
+@screen lg {
+  h1 {
+    @apply text-h1-lg;
+  }
+  h2 {
+    @apply text-h2-lg;
+  }
+  h3 {
+    @apply text-h3-lg;
+  }
+  h4 {
+    @apply text-h4-lg;
+  }
+  h5 {
+    @apply text-h5-lg;
+  }
+  h6 {
+    @apply text-h6-lg;
+  }
+  p {
+    @apply text-paragraph-lg;
+  }
+}
+
+/* Extra large screens (xl) */
+@screen xl {
+  h1 {
+    @apply text-h1-xl;
+  }
+  h2 {
+    @apply text-h2-xl;
+  }
+  h3 {
+    @apply text-h3-xl;
+  }
+  h4 {
+    @apply text-h4-xl;
+  }
+  h5 {
+    @apply text-h5-xl;
+  }
+  h6 {
+    @apply text-h6-xl;
+  }
+}
+
+.clip-arrow-down {
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+.clip-arrow-up {
+  clip-path: polygon(100% 100%, 0 0, 0 100%);
+}
+.clip-arrow-right-bottom {
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
