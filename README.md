@@ -1,6 +1,8 @@
 <h1 align="center">EcomShareTrip</h1>
 <p align="center">A task of products list showing via <a href="https://dummyjson.com/docs/products/">API link</a></p>
 
+![Your Image Description](demo.png)
+
 ## Table of Contents
 
 - [About](#about)
