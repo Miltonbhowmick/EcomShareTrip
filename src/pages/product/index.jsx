@@ -113,7 +113,7 @@ const ProductIndexPage = () => {
               onLoad={() => setIsImageLoading(false)}
             />
           </div>
-          <div className="mt-4 flex gap-2 overflow-x-auto w-[200px]">
+          <div className="mt-4 flex gap-2 overflow-x-auto ">
             {productDetail?.images.map((image, index) => {
               return (
                 <div
