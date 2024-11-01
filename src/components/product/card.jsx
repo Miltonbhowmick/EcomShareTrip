@@ -31,7 +31,6 @@ const ProductCard = ({ itemData }) => {
 
   const handleAddCart = (item) => {
     // Add an item to cart
-
     if (totalItemInCart >= item.minimumOrderQuantity) {
       alert(`You cannot order more than ${item.minimumOrderQuantity} items.`);
       return;

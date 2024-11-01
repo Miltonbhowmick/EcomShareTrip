@@ -60,7 +60,6 @@ const ProductIndexPage = () => {
 
   const handleAddCart = (item) => {
     // Add an item to cart
-
     if (totalItemInCart >= item.minimumOrderQuantity) {
       toast(`You cannot order more than ${item.minimumOrderQuantity} items.`);
       return;
@@ -103,7 +102,7 @@ const ProductIndexPage = () => {
       </div>
       <div className="py-2 flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-2/4">
-          <div className="h-[600px] md:h-[500px] rounded-lg overflow-hidden border">
+          <div className="h-[550px] md:h-[700px] rounded-lg overflow-hidden border">
             <img
               src={currentLargeImage}
               alt="selected-product-image"
